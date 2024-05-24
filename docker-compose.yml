@@ -45,8 +45,7 @@ services:
       context: .
       dockerfile: src/Backend.Presentation.API/Dockerfile
     ports:
-      - '5001:8080'
-      - '5000:8081'
+      - '5001:8080' 
     depends_on:
       - rabbitmq
       - postgres
