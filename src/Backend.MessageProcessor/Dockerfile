@@ -3,7 +3,7 @@ ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
  
 COPY ["src/Backend.MessageProcessor/Backend.MessageProcessor.csproj", "src/Backend.MessageProcessor/"]
-COPY ["Backend.Shared/Backend.Shared.csproj", "Backend.Shared/"]
+COPY ["src/Backend.Shared/Backend.Shared.csproj", "src/Backend.Shared/"]
 COPY ["src/Backend.Communication.Base/Backend.Communication.Base.csproj", "src/Backend.Communication.Base/"]
 RUN dotnet restore "./src/Backend.MessageProcessor/Backend.MessageProcessor.csproj"
  

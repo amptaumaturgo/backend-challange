@@ -8,7 +8,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
 COPY ["src/Backend.Presentation.API/Backend.Presentation.API.csproj", "src/Backend.Presentation.API/"]
-COPY ["Backend.Shared/Backend.Shared.csproj", "Backend.Shared/"]
+COPY ["src/Backend.Shared/Backend.Shared.csproj", "src/Backend.Shared/"]
 COPY ["src/Backend.Application/Backend.Application.csproj", "src/Backend.Application/"]
 COPY ["src/Backend.Communication.Base/Backend.Communication.Base.csproj", "src/Backend.Communication.Base/"]
 COPY ["src/Backend.Domain/Backend.Domain.csproj", "src/Backend.Domain/"]
