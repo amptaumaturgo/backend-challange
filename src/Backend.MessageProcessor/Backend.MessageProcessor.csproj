@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Backend.Shared\Backend.Shared.csproj" />
+    <ProjectReference Include="..\Backend.Shared\Backend.Shared.csproj" />
     <ProjectReference Include="..\Backend.Communication.Base\Backend.Communication.Base.csproj" />
   </ItemGroup>
 

@@ -22,10 +22,11 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\Backend.Shared\Backend.Shared.csproj" />
+    <ProjectReference Include="..\Backend.Shared\Backend.Shared.csproj" />
     <ProjectReference Include="..\Backend.Communication.Base\Backend.Communication.Base.csproj" />
     <ProjectReference Include="..\Backend.Domain\Backend.Domain.csproj" />
     <ProjectReference Include="..\Backend.Infrastructure\Backend.Infrastructure.csproj" />
+    <ProjectReference Include="..\Backend.Shared\Backend.Shared.csproj" />
   </ItemGroup>
 
 </Project>

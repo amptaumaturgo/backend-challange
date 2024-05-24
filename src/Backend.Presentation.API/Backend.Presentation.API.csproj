@@ -22,7 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Backend.Shared\Backend.Shared.csproj" />
+      <ProjectReference Include="..\Backend.Shared\Backend.Shared.csproj" />
       <ProjectReference Include="..\Backend.Application\Backend.Application.csproj" />
       <ProjectReference Include="..\Backend.Communication.Base\Backend.Communication.Base.csproj" />
       <ProjectReference Include="..\Backend.Domain\Backend.Domain.csproj" />

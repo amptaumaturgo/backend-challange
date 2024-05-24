@@ -20,20 +20,27 @@ public class Worker(ILogger<Worker> logger, IServiceProvider serviceProvider, IO
     {
         logger.LogInformation("ExecuteAsync started");
 
-        using var scope = provider.CreateScope();
-
-        var dbContext = scope.ServiceProvider.GetRequiredService<WorkerDbContext>();
-
-        var motorcycle = new Motorcycle
+        try
         {
-            Model = model.Model,
-            Plate = model.Plate,
-            Year = model.Year
-        };
+            using var scope = provider.CreateScope();
 
-        dbContext.Motorcycles.Add(motorcycle);
+            var dbContext = scope.ServiceProvider.GetRequiredService<WorkerDbContext>();
 
-         await dbContext.SaveChangesAsync(cancellationToken: cancellationToken);
+            var motorcycle = new Motorcycle
+            {
+                Model = model.Model,
+                Plate = model.Plate,
+                Year = model.Year
+            };
+
+            dbContext.Motorcycles.Add(motorcycle);
+
+            await dbContext.SaveChangesAsync(cancellationToken: cancellationToken);
+        }
+        catch (Exception e)
+        {  
+            logger.LogError(e.Message);
+        }
 
     }
 }
