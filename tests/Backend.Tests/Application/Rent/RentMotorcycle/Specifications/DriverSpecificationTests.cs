@@ -1,8 +1,9 @@
 ﻿using Backend.Application.Rent.RentMotorcycle.RentMotorcycleSpecification;
 using Backend.Domain.Entities.Enums;
 using Backend.Domain.Entities;
-using Backend.Domain.Repositories;
 using Moq;
+using Backend.Domain.Repositories.Driver;
+using Backend.Domain.Repositories.Rent;
 
 namespace Backend.Tests.Application.Rent.RentMotorcycle.Specifications;
 

@@ -1,5 +1,5 @@
 ﻿using Backend.Domain.Entities;
-using Backend.Domain.Repositories;
+using Backend.Domain.Repositories.Rent;
 using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Infrastructure.Repositories;

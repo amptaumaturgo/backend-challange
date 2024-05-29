@@ -1,5 +1,5 @@
 ﻿using Backend.Domain.DomainServices.RentStrategy;
-using Backend.Domain.Repositories;
+using Backend.Domain.Repositories.Rent;
 using Backend.Shared.CQRS.Queries;
 
 namespace Backend.Application.Rent.GetRentByUser;

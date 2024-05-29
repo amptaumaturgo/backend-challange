@@ -1,4 +1,4 @@
-﻿using Backend.Domain.Repositories;
+﻿using Backend.Domain.Repositories.Rent;
 
 namespace Backend.Application.Rent.RentMotorcycle.RentMotorcycleSpecification;
 

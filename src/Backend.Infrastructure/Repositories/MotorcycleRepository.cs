@@ -1,6 +1,6 @@
 ﻿using System.Runtime.InteropServices;
 using Backend.Domain.Entities;
-using Backend.Domain.Repositories;
+using Backend.Domain.Repositories.Motorcycle;
 using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Infrastructure.Repositories;

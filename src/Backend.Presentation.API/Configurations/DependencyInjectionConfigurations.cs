@@ -1,6 +1,8 @@
 ﻿using Backend.Application;
 using Backend.Domain.DomainServices.RentStrategy;
-using Backend.Domain.Repositories;
+using Backend.Domain.Repositories.Driver;
+using Backend.Domain.Repositories.Motorcycle;
+using Backend.Domain.Repositories.Rent;
 using Backend.Infrastructure;
 using Backend.Infrastructure.Repositories;
 using Backend.Shared.Data;

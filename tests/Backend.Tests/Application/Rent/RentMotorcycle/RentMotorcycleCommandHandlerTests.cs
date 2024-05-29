@@ -2,7 +2,7 @@
 using Backend.Application.Rent.RentMotorcycle.RentMotorcycleSpecification;
 using Backend.Domain.DomainServices.RentStrategy;
 using Backend.Domain.Entities;
-using Backend.Domain.Repositories;
+using Backend.Domain.Repositories.Rent;
 using Backend.Shared.Data;
 using Moq;
 

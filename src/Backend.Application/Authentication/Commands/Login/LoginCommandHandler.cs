@@ -8,7 +8,7 @@ using System.Security.Claims;
 using Backend.Shared.Extensions;
 using Microsoft.Extensions.Options;
 using System.Text;
-using Backend.Domain.Repositories;
+using Backend.Domain.Repositories.Driver;
 
 namespace Backend.Application.Authentication.Commands.Login;
 

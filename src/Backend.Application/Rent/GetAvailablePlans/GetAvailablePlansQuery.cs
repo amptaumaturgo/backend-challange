@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Backend.Domain.Repositories;
+using Backend.Domain.Repositories.Rent;
 using Backend.Shared.CQRS.Base;
 using Backend.Shared.CQRS.Queries;
 

@@ -1,6 +1,6 @@
 ﻿using Backend.Application.Authentication.Commands.Login;
 using Backend.Domain.Entities;
-using Backend.Domain.Repositories;
+using Backend.Domain.Repositories.Driver;
 using Backend.Shared.Extensions;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;

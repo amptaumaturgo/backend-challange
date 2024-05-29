@@ -1,6 +1,6 @@
 ﻿using Backend.Application.Authentication.Commands.CreateDriverUser;
 using Backend.Domain.Entities.Enums;
-using Backend.Domain.Repositories;
+using Backend.Domain.Repositories.Driver;
 using Backend.Shared.Data;
 using Microsoft.AspNetCore.Identity;
 using Moq;

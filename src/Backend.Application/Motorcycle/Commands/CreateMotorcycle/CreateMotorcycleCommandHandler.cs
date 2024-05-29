@@ -1,5 +1,5 @@
 ﻿using Backend.Application.Motorcycle.Events;
-using Backend.Domain.Repositories;
+using Backend.Domain.Repositories.Motorcycle;
 using Backend.Shared.CQRS.Base;
 using Backend.Shared.CQRS.Commands;
 using MediatR;
